@@ -1,0 +1,169 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	background-color: rgb(204, 162, 69);
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+header{
+	text-align: center;
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+#meus-pacientes{
+text-align: center;
+	
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding:  auto ;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 25px;
+	
+	color: #fff;
+	background-color:#262829;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+ 
+
+}
+
+button:hover{
+	border-radius: 8px;
+	background-color: aqua;
+	color: #333;
+}
+
+
+
+
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-inválido {
+	background-color: rgb(247, 29, 29);
+}
+
+#mensagens-erro{
+	color: red;
+}
+
+#titulo-form {
+	text-align: center;
+	margin: 20px;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 500ms;
+}
+
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.invisivel {
+	display: none;
+}
+
+
